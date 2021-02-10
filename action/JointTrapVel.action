@@ -1,7 +1,7 @@
 #goal definition
-sensor_msgs/JointState joints
-float32 speed #max target speed 
-float32 acc  #max target acceleration 
+sensor_msgs/JointState[] joints
+float32 speed_max #max target speed 
+float32 acc_max  #max target acceleration 
 ---
 #result definition
 sensor_msgs/JointState final_joints

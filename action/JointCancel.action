@@ -1,8 +1,0 @@
-#goal definition
-bool cancel = 0 #max target speed 
----
-#result definition
-bool fully_succeeded
----
-#feedback
-
