@@ -60,6 +60,9 @@ add_message_files(
   CartesianVelocity.msg
   CartesianSpaceDMP.msg
   JointSpaceDMP.msg
+  ImpedanceParameters.msg
+  JointCommand.msg
+  CartesianCommand.msg
 )
 
 ## Generate services in the 'srv' folder
