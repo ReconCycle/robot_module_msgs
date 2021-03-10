@@ -70,6 +70,7 @@ add_service_files(FILES
   SetRobotTool.srv
   Output.srv
   SetDirectCartesianControl.srv
+  SetString.srv
 )
 
 # Generate actions in the 'action' folder
