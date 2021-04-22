@@ -63,6 +63,7 @@ add_message_files(
   ImpedanceParameters.msg
   JointCommand.msg
   CartesianCommand.msg
+  VisionData.msg
 )
 
 ## Generate services in the 'srv' folder
