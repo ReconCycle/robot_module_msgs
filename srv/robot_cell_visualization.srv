@@ -1,0 +1,7 @@
+uint8 childIdx # Index of child table that is connecting on parent table.
+uint8 parentIdx # Index of parent table that child table is connecting on.
+string stlName # Name of stl file of child object (table).
+uint8 action # 0 for add, 1 for remove table.
+---
+bool success
+string message
