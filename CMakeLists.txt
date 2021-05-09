@@ -72,7 +72,7 @@ add_service_files(FILES
   Output.srv
   SetDirectCartesianControl.srv
   SetString.srv
-  robot_cell_visualization.srv
+  CellVisualization.srv
 )
 
 # Generate actions in the 'action' folder
