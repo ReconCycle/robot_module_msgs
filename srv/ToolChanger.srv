@@ -1,0 +1,6 @@
+string toolname  # tool name with prefix
+string groupname # ns for tools in group
+string transform_to # tf holder e.q. panda_2/panda_link8
+---
+bool success # successfully completed
+string message # errors
