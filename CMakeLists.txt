@@ -72,14 +72,19 @@ add_service_files(FILES
   Output.srv
   SetDirectCartesianControl.srv
   SetString.srv
+<<<<<<< HEAD
   CellVisualization.srv
   StlFileManager.srv
+=======
+  CellVisualization.srv 
+  ToolChanger.srv
+>>>>>>> 939a4f6f7c34acf5a17615de0fd9e2b373dd4960
 )
 
 # Generate actions in the 'action' folder
 add_action_files(
 DIRECTORY action	
-FILES JointDMP.action CartTrapVel.action CartLinTask.action CartDMP.action JointTrapVel.action JointMinJerk.action
+FILES JointDMP.action CartTrapVel.action CartLinTask.action CartDMP.action JointTrapVel.action JointMinJerk.action CartVel.action
 )
 
 ## Generate added messages and services with any dependencies listed here
