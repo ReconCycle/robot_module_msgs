@@ -3,7 +3,7 @@ string parentName # Name of parent table frame.
 string childSwitch # Name of connected switch on child table.
 string parentSwitch # Name of connected switch on parent table.
 string stlFile # Name of stl file of child object (table).
-string action # 0 for add, 1 for remove table.
+string action # 'add' or 'remove'.
 ---
 bool success
 string message
