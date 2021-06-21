@@ -73,6 +73,7 @@ add_service_files(FILES
   SetDirectCartesianControl.srv
   SetString.srv
   CellVisualization.srv
+  StlFileManager.srv
 )
 
 # Generate actions in the 'action' folder
