@@ -1,0 +1,4 @@
+string tableName # Name of the table, from which the host is requesting stl file(name)
+---
+string stlFilename # Name of stl file.
+bool success
