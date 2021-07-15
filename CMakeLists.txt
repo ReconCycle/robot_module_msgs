@@ -75,6 +75,7 @@ add_service_files(FILES
   CellVisualization.srv
   StlFileManager.srv
   rviz_tools.srv
+  SetList.srv
 )
 
 # Generate actions in the 'action' folder
