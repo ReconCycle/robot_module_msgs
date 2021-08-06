@@ -76,6 +76,7 @@ add_service_files(FILES
   StlFileManager.srv
   rviz_tools.srv
   SetList.srv
+  ToolChanger.srv
 )
 
 # Generate actions in the 'action' folder
