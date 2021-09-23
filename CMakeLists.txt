@@ -77,6 +77,7 @@ add_service_files(FILES
   rviz_tools.srv
   SetList.srv
   ToolChanger.srv
+  MoveVise.srv
 )
 
 # Generate actions in the 'action' folder
