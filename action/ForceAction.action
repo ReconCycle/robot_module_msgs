@@ -1,0 +1,13 @@
+
+#goal definition
+float32 amplitude
+float32 frequency
+#TODO axis selection
+geometry_msgs/Wrench ft
+#this sets how soft force is discarted after contact loss
+float32 rho_min 
+---
+#result definition
+bool fully_succeeded
+---
+#feedback
