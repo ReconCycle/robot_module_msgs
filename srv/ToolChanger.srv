@@ -1,7 +1,0 @@
-string toolname  # tool name with prefix
-string groupname # ns for tools in group
-string transform_to # tf holder e.q. panda_2/panda_link8
-bool hold # when false robot stays without tools
----
-bool success # successfully completed
-string message # errors
