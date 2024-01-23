@@ -1,0 +1,18 @@
+
+# goal definition
+
+geometry_msgs/Point  direction  # direction of sinusoidal motion pattern
+float64              amplitude  # amplitude of the motion pattern 
+float64              frequency  # frequency of the motion pattern
+float64              force      # magnitude of the desired force
+float64              rho_min    # this sets how soft the force is discarded
+                                # after contact loss (value should be between 1 and 0, the lower it is the smoother the transition)
+#TODO: make it work in arbitrary direction
+# geometry_msgs/Wrench  ft
+# geometry_msgs/Pose    pose
+---
+# result definition
+bool succeeded
+---
+# feedback
+float64         current_rho   # this tells how far are we from stopping force controller (the value decreases from 1 to rho_min)
