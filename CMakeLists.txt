@@ -63,27 +63,25 @@ add_message_files(
   ImpedanceParameters.msg
   JointCommand.msg
   CartesianCommand.msg
-  VisionData.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(FILES
-  SetRobotTool.srv
-  Output.srv
-  SetDirectCartesianControl.srv
-  SetString.srv
-  CellVisualization.srv
-  StlFileManager.srv
-  rviz_tools.srv
   SetList.srv
-  ToolChanger.srv
-  MoveVise.srv
+  SetString.srv
 )
 
 # Generate actions in the 'action' folder
-add_action_files(
-DIRECTORY action	
-FILES JointDMP.action CartTrapVel.action CartLinTask.action CartDMP.action JointTrapVel.action JointMinJerk.action CartVel.action ForceAction.action
+add_action_files(FILES 
+    JointDMP.action
+    CartTrapVel.action
+    CartLinTask.action
+    CartDMP.action
+    JointTrapVel.action
+    JointMinJerk.action
+    CartVel.action
+    ForceAction.action
+    Generic.action
 )
 
 ## Generate added messages and services with any dependencies listed here
